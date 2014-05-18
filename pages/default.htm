@@ -2,7 +2,8 @@ title = "Default"
 url = "/"
 layout = "default"
 ==
-Hello I am the index.
-
-<h2>Content Block</h2>
-{% content "default.htm" %}
+<div>
+    Page
+    {% content "default.htm" %}
+    {% partial "default.htm" %}
+</div>
